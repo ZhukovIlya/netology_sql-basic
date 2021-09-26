@@ -4,5 +4,5 @@ create table PERSONS(
                         age            int check (age > 0),
                         phone_number   varchar(255) not null,
                         city_of_living varchar(255),
-                        primary key (name, surname, phone_number)
+                        primary key (name, surname, age)
 );
